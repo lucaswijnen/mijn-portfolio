@@ -2,96 +2,101 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio-LucasWijnen</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Average+Sans&display=swap" rel="stylesheet">
-    <script>
-        function myFunction() {
-            var x = document.getElementById("myLinks");
-            if (x.style.display === "block") {
-                x.style.display = "none";
-            } else {
-                x.style.display = "block";
-            }
-        }
-    </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio-LucasWijnen</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Average+Sans&display=swap" rel="stylesheet">
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      x.style.display = x.style.display === "block" ? "none" : "block";
+    }
+  </script>
 </head>
 
 <body>
-    <div class="hoofd-container">
-        <header>
-            <div class="Menu-container">
-                <img src="plaatjes/image.png" alt="logo">
-                <nav class="nav-menu">
-                    <a class="flex" style="align-items: center; gap: 5px;" href="/index.html">
-                        <img class="icon" src="../plaatjes/home.png" alt="home icon"> <span class="rood">Home</span>
-                    </a>
-                    <a class="flex" style="align-items: center; gap: 5px;" href="/pages/about-me.html">
-                        <img class="icon" src="../plaatjes/user.png" alt="about me icon"> About Me
-                    </a>
-                    <a class="flex" style="align-items: center; gap: 5px;" href="/pages/resume.html">
-                        <img class="icon" src="../plaatjes/resume.png" alt="resume icon"> Resume
-                    </a>
-                    <a class="flex" style="align-items: center; gap: 5px;" href="/pages/projects.html">
-                        <img class="icon" src="../plaatjes/projects.png" alt="projects icon"> Projects
-                    </a>
-                    <a class="flex" style="align-items: center; gap: 5px;" href="/pages/contact.html">
-                        <img class="icon" src="../plaatjes/contact.png" alt="contact icon"> Contact
-                    </a>
-                </nav>
+  <div class="hoofd-container">
+    <header>
+      <div class="Menu-container">
+        <img src="plaatjes/image.png" alt="logo">
+        <nav class="nav-menu">
+          <a class="flex" href="index.html">
+            <img class="icon" src="plaatjes/home.png" alt="home icon">
+            <span class="rood">Home</span>
+          </a>
+          <a class="flex" href="pages/about-me.html">
+            <img class="icon" src="plaatjes/user.png" alt="about me icon">
+            About Me
+          </a>
+          <a class="flex" href="pages/resume.html">
+            <img class="icon" src="plaatjes/resume.png" alt="resume icon">
+            Resume
+          </a>
+          <a class="flex" href="pages/projects.html">
+            <img class="icon" src="plaatjes/projects.png" alt="projects icon">
+            Projects
+          </a>
+          <a class="flex" href="pages/contact.html">
+            <img class="icon" src="plaatjes/contact.png" alt="contact icon">
+            Contact
+          </a>
+        </nav>
 
-
-                <div class="gemaakt">
-                    <div class="social">
-                        <a href="https://www.linkedin.com/in/lucas-wijnen-214432359/" target="_blank">
-                            <img src="../plaatjes/linkedin.png" alt="Linkedin">
-                        </a>
-                        <a href="https://www.instagram.com/lucaswijnen" target="_blank">
-                            <img src="../plaatjes/instagram.png" alt="Instagram">
-                        </a>
-                    </div>
-                    © 2024 Lucas
-                </div>
-            </div>
-
-        </header>
-        <img onclick="myFunction()" class="none" src="plaatjes/hamburger.png" alt="hamburger">
-        <div id="myLinks" class="hamburger">
-            <img onclick="myFunction()" class="none" src="plaatjes/hamburger.png" alt="hamburger">
-            <div class="hamburger-nav">
-                <img src="plaatjes/image.png" alt="logo">
-                <a class="flex" style="align-items: center; gap: 5px;" href="/index.html">
-                    <img class="icon" src="../plaatjes/home.png" alt="home icon"> <span class="rood">Home</span>
-                </a>
-                <a class="flex" style="align-items: center; gap: 5px;" href="/pages/about-me.html">
-                    <img class="icon" src="../plaatjes/user.png" alt="about me icon"> About Me
-                </a>
-                <a class="flex" style="align-items: center; gap: 5px;" href="/pages/resume.html">
-                    <img class="icon" src="../plaatjes/resume.png" alt="resume icon"> Resume
-                </a>
-                <a class="flex" style="align-items: center; gap: 5px;" href="/pages/projects.html">
-                    <img class="icon" src="../plaatjes/projects.png" alt="projects icon"> Projects
-                </a>
-                <a class="flex" style="align-items: center; gap: 5px;" href="/pages/contact.html">
-                    <img class="icon" src="../plaatjes/contact.png" alt="contact icon"> Contact
-                </a>
-            </div>
+        <div class="gemaakt">
+          <div class="social">
+            <a href="https://www.linkedin.com/in/lucas-wijnen-214432359/" target="_blank">
+              <img src="plaatjes/linkedin.png" alt="Linkedin">
+            </a>
+            <a href="https://www.instagram.com/lucaswijnen" target="_blank">
+              <img src="plaatjes/instagram.png" alt="Instagram">
+            </a>
+          </div>
+          © 2024 Lucas
         </div>
-        <main class="main-container">
-            <div class="text-container">
-                <div class="mid-text">
-                    <h1>Hello I'm</h1>
-                    <h2>Lucas Wijnen</h2>
-                    <h3>A software developer</h3>
-                </div>
-            </div>
-        </main>
+      </div>
+    </header>
+
+    <img onclick="myFunction()" class="none" src="plaatjes/hamburger.png" alt="hamburger">
+    <div id="myLinks" class="hamburger">
+      <img onclick="myFunction()" class="none" src="plaatjes/hamburger.png" alt="hamburger">
+      <div class="hamburger-nav">
+        <img src="plaatjes/image.png" alt="logo">
+        <a class="flex" href="index.html">
+          <img class="icon" src="plaatjes/home.png" alt="home icon">
+          <span class="rood">Home</span>
+        </a>
+        <a class="flex" href="pages/about-me.html">
+          <img class="icon" src="plaatjes/user.png" alt="about me icon">
+          About Me
+        </a>
+        <a class="flex" href="pages/resume.html">
+          <img class="icon" src="plaatjes/resume.png" alt="resume icon">
+          Resume
+        </a>
+        <a class="flex" href="pages/projects.html">
+          <img class="icon" src="plaatjes/projects.png" alt="projects icon">
+          Projects
+        </a>
+        <a class="flex" href="pages/contact.html">
+          <img class="icon" src="plaatjes/contact.png" alt="contact icon">
+          Contact
+        </a>
+      </div>
     </div>
 
+    <main class="main-container">
+      <div class="text-container">
+        <div class="mid-text">
+          <h1>Hello I'm</h1>
+          <h2>Lucas Wijnen</h2>
+          <h3>A software developer</h3>
+        </div>
+      </div>
+    </main>
+  </div>
 </body>
 
 </html>
